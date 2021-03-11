@@ -1,0 +1,64 @@
+body{
+    background: no-repeat fixed center;
+    background-image: url("background.webp");
+    background-size:cover ;
+}
+
+li, a{
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase; 
+    color: #fff; 
+}
+
+.top-nav{
+    text-align: right;
+    height: 40px;
+    
+}
+
+#link{
+    margin-top: 40px;
+}
+.logo{
+    height: 30px;
+    width: 35px;
+    margin-left: 5em;
+    margin-top: 4em;
+    display: inline;
+}
+
+.content p{
+    font-size: 30px;
+    background-color: #fff;
+    border: 2px solid;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 100px;
+}
+
+.pix img{
+    width: 300px;
+    height: 400px;
+    margin-left: 32em;
+    margin-top: -6px;
+}
+
+.drop {
+  
+    overflow: hidden;
+    margin-left: 480px;
+  }
+
+  .drop .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 6px 8px;
+    background-color: rgb(112, 112, 196);
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    font-size: 18px;
+  }
